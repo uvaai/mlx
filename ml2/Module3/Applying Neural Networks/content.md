@@ -7,4 +7,3 @@
 ### Applying Machine Learning
 
 ![embed](https://youtube.com/embed/zNhCF97exlA)
-

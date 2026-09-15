@@ -15,4 +15,3 @@ modules. All of the relevant theory will be covered in the
 [videos](/module-2/neural-networks). For the programming this week we'll work
 on a network that can do all of the required [forward
 computation](/module-2/model-representation-forward-computation).
-

@@ -11,7 +11,3 @@ which is an essential part of this week's
 [programming notebook](/module-1/shipwreck-survival). In the notebook, you will
 try to predict whether a person survived the Titanic shipwreck
 using Logistic Regression.
-
-Finally, this week's [written assignment](/module-1/automation-and-labour) will
-discuss the claim that the rise of AI technology is likely to cause massive
-unemployment in the future.

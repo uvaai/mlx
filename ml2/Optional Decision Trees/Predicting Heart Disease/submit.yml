@@ -1,4 +1,4 @@
-name: prog_10
+name: optional_dtrees
 files:
     required:
         - decision_trees.ipynb

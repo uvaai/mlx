@@ -1,0 +1,4 @@
+name: optional_gtsrb
+files:
+    required:
+        - CNN_gtsrb.ipynb
