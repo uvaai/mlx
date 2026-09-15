@@ -1,0 +1,4 @@
+name: ml2_prog_5b
+files:
+    required:
+        - CNN_cifar.ipynb

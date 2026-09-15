@@ -1,0 +1,4 @@
+name: writ_8
+files:
+    required:
+        - model_release.txt
