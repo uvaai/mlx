@@ -1,0 +1,80 @@
+Welcome:
+    Read the syllabus to get started: /syllabus
+
+    Installation introduction: /python/en/installing/intro
+    Install Python on Windows:
+        Step 1 install Miniconda: /python/en/installing/miniconda-win
+        Step 2 install Pulsar: /python/en/installing/pulsar
+        Step 3 command line interface: /python/en/installing/cli-win
+        Step 4 install Conda environment: /python/en/installing/conda-env-minai-win
+        Step 5 downloading tests: /python/en/installing/checkpy
+    Install Python on MacOS:
+        Step 1 install Miniconda: /python/en/installing/miniconda-mac
+        Step 2 install Pulsar: /python/en/installing/pulsar
+        Step 3 command line interface: /python/en/installing/cli-mac
+        Step 4 install Conda environment: /python/en/installing/conda-env-minai-mac
+        Step 5 downloading tests: /python/en/installing/checkpy
+
+Module 1 [27/10/25]:
+    Overview: /ml2/module1/overview
+    Theory Videos:
+        Logistic Regression: /ml2/module1/logistic-regression
+    Programming Notebook:
+        Shipwreck Survival [submit]: /ml2/module1/shipwreck-survival
+
+Module 2 [3/11/25]:
+    Overview: /ml2/module2/overview
+    Theory Videos:
+        Neural Networks: /ml2/module2/neural-networks
+    Programming Notebook:
+        Representation and Forward Step [submit]: /ml2/module2/model-representation-forward-computation
+
+Module 3 [11/11/25]:
+    Overview: /ml2/module3/overview
+    Theory:
+        Learning network weights: /ml2/module3/learning-network-weights
+    Programming:
+        Backpropagation [submit]: /ml2/module3/backpropagation
+
+Module 4 [28/11/25]:
+    Overview: /ml2/module5/overview
+    Theory:
+        Convolutional Neural Networks: /ml2/module5/convolutional-neural-networks
+    Programming:
+        Filters and Convolution [submit]: /ml2/module5/filters-and-convolution
+
+Module 5 [8/12/25]:
+    Overview: /ml2/module6/overview
+    Theory 1:
+      Building deeper networks: /ml2/module3/building-deeper-networks
+    Programming 1:
+        Activation functions [submit]: /ml2/module3/activation-functions
+    Theory 2:
+        Applying neural networks: /ml2/module3/applying-neural-networks
+    Theory 3:
+        Deep Learning: /ml2/module6/deep-learning
+    Programming 2:
+        Running notebooks online: /ml2/module6/running-notebooks-online
+    Building deeper CNN's [submit]: /ml2/module6/building-deeper-cnns
+
+Optional module Deep Neural Nets:
+    Programming:
+        Building deeper CNN's [submit]: /ml2/module6/building-deeper-cnns
+
+Optional module Decision Trees:
+    Overview: /ml2/module4/overview
+    Theory:
+        Decision Trees and Random Forests: /ml2/module4/decision-trees-random-forests
+    Programming:
+        Predicting Heart Disease [submit]: /ml2/module4/predicting-heart-disease
+
+Optional writing assignments:
+    Automation and Labour: /ml2/module1/automation-and-labour
+    Model Release Strategies [submit]: /ml2/module2/model-release-strategies
+    Automated Decision Making in Society [submit]: /ml2/module3/automated-decision-making-in-society
+    Interpretable AI: /ml2/module4/interpretable-ai
+    Software 2.0: /ml2/module5/software-2-0
+    Understanding AI systems [submit]: /ml2/module6/understanding-ai-systems
+
+Exam:
+    Practice: /exam/

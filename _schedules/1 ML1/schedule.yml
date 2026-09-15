@@ -1,0 +1,63 @@
+Welcome:
+    Read the syllabus to get started: /syllabus
+
+    Installation introduction: /python/en/installing/intro
+    Install Python on Windows:
+        Step 1 install Miniconda: /python/en/installing/miniconda-win
+        Step 2 install Pulsar: /python/en/installing/pulsar
+        Step 3 command line interface: /python/en/installing/cli-win
+        Step 4 install Conda environment: /python/en/installing/conda-env-minai-win
+        Step 5 downloading tests: /python/en/installing/checkpy
+    Install Python on MacOS:
+        Step 1 install Miniconda: /python/en/installing/miniconda-mac
+        Step 2 install Pulsar: /python/en/installing/pulsar
+        Step 3 command line interface: /python/en/installing/cli-mac
+        Step 4 install Conda environment: /python/en/installing/conda-env-minai-mac
+        Step 5 downloading tests: /python/en/installing/checkpy
+
+Module 1 [04/03/26]:
+    SOWISO:
+        Probability & Describing Data [optional]: /ml1/lll/sowiso
+    Introduction to AI:
+        Elements of AI: /ml1/module1/elements-of-ai/
+    Theory Videos:
+        Nearest Neighbours: /ml1/module1/nearest-neighbours/
+    Programming Notebook:
+        Notebook introduction: /ml1/module1/notebooks
+        k-NN classification [submit]: /ml1/module1/k-nn-classification
+    Written Assignment:
+        Turing's paper [submit]: /ml1/module1/turing-test/
+
+Module 2 [23/03/26]:
+    SOWISO:
+        Probability Distributions [optional]: /ml1/module2/probability-distributions
+    Theory Videos:
+        Bayes' Rule: /ml1/module2/bayes-rule
+    Programming Notebook:
+        Naive Bayes [submit]: /ml1/module2/naive-bayes
+    Written Assignment:
+        Chinese Room [submit]: /ml1/module2/chinese-room
+
+Module 3 [06/04/26]:
+    SOWISO:
+        Gradients [optional]: /ml1/module3/gradients
+    Theory Videos:
+        Linear Regression: /ml1/module3/linear-regression
+    Programming Notebook:
+        Gradient Descent [submit]: /ml1/module3/gradient-descent
+    Written Assignment:
+        AlphaGo [submit]: /ml1/module3/alphago
+
+Module 4 [27/04/26]:
+    SOWISO:
+        Linear Algebra [optional]: /ml1/module4/linear-algebra
+    Theory Videos:
+        Multiple Regression: /ml1/module4/multiple-regression
+    Programming Notebook:
+        Polynomial Regression [submit]: /ml1/module4/polynomial-regression
+    Written Assignment:
+        Algorithmic Bias [submit]: /ml1/module4/algorithmic-bias
+
+Exam [25/05/26]:
+    Exam material: /ml1/exam/material-lll
+    Practice exam: /ml1/exam/practice-lll

@@ -1,0 +1,4 @@
+name: prog_9b
+files:
+    required:
+        - activations.ipynb

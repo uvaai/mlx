@@ -1,0 +1,5 @@
+name: prog_12
+files:
+    required:
+        - CNN_cifar.ipynb
+        - CNN_gtsrb.ipynb

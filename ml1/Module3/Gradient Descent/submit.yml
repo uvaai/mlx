@@ -1,0 +1,4 @@
+name: prog_3_elec
+files:
+    required:
+        - linear_regression.ipynb

@@ -1,0 +1,4 @@
+name: writ_3_elec
+files:
+    required:
+        - alphago_creativity.txt

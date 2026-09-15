@@ -1,0 +1,4 @@
+name: writ_2_elec
+files:
+    required:
+        - understanding_sentiment.txt

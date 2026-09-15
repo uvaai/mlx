@@ -1,0 +1,4 @@
+name: prog_7
+files:
+    required:
+        - Logistic_Regression.ipynb

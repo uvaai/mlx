@@ -1,0 +1,188 @@
+templates:
+    1: &automatic
+        type: pass
+        subgrades:
+            done: boolean
+        automatic:
+            done: -1
+        calculation: done
+        auto_publish: true
+        hide_calculated: true
+        hide_subgrades: true
+    2: &auto-manual
+        type: float
+        subgrades:
+            correctness: integer
+            points: integer
+        automatic:
+            correctness: (correctness_score * 100).floor
+        calculation: (correctness/100).floor * points
+        hide_calculated: true
+    3: &manual
+        type: float
+        subgrades:
+            points: integer
+        calculation: points
+    4: &fullyauto
+        type: pass
+        subgrades:
+            correctness: integer
+        automatic:
+            correctness: (correctness_score * 100).floor
+        calculation: -(correctness / 100)
+        auto_publish: true
+        hide_subgrades: true
+    5: &check_off
+        type: pass
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
+    6: &manual_exam
+        type: float
+        subgrades:
+            points: float
+        calculation: points
+        is_test: true
+        hide_subgrades: true
+    7: &written
+        type: float
+        subgrades:
+            instructions: float
+            structure_and_style: float
+            argumentation: float
+        calculation: "instructions + structure_and_style + argumentation"
+
+grades:
+    prog_7:
+        <<: *manual
+        deadline: 07/04/26 18:00
+    writ_7:
+        <<: *written
+        deadline: 07/04/26 18:00
+    prog_8:
+        <<: *manual
+        deadline: 15/04/26 18:00
+    writ_8:
+        <<: *written
+        deadline: 15/04/26 18:00
+    prog_9a:
+        <<: *manual
+        deadline: 24/04/26 18:00
+    prog_9b:
+        <<: *manual
+        deadline: 24/04/26 18:00
+    writ_9:
+        <<: *written
+        deadline: 24/04/26 18:00
+    prog_10:
+        <<: *manual
+        deadline: 27/11/26 18:00
+    writ_10:
+        <<: *written
+        deadline: 27/11/26 18:00
+    prog_11:
+        <<: *manual
+        deadline: 13/05/26 18:00
+    writ_11:
+        <<: *written
+        deadline: 13/05/26 18:00
+    prog_12:
+        <<: *manual
+        deadline: 22/05/26 18:00
+    writ_12:
+        <<: *written
+        deadline: 22/05/26 18:00
+    exam: *manual_exam
+    resit: *manual_exam
+
+calculation:
+    final:
+        programming: 40
+        writtens: 20
+        exam: 40
+    retake:
+        programming: 40
+        writtens: 20
+        resit: 40
+
+programming:
+    type: average
+    show_progress: false
+    submits:
+        prog_7: 2
+        prog_8: 2
+        prog_9a: 1
+        prog_9b: 1
+        prog_10: 2
+        prog_11: 2
+        prog_12: 2
+
+writtens:
+    type: average
+    show_progress: false
+    submits:
+        writ_7: 1
+        writ_8: 1
+        writ_9: 1
+        writ_10: 1
+        writ_11: 1
+        writ_12: 1
+
+module1:
+    type: average
+    show_progress: true
+    submits:
+        prog_7: 2
+        writ_7: 1
+
+module2:
+    type: average
+    show_progress: true
+    submits:
+        prog_8: 2
+        writ_8: 1
+
+module3:
+    type: average
+    show_progress: true
+    submits:
+        prog_9a: 1
+        prog_9b: 1
+        writ_9: 1
+
+module4:
+    type: average
+    show_progress: true
+    submits:
+        prog_10: 2
+        writ_10: 1
+
+module5:
+    type: average
+    show_progress: true
+    submits:
+        prog_11: 2
+        writ_11: 1
+
+module6:
+    type: average
+    show_progress: true
+    submits:
+        prog_12: 2
+        writ_12: 1
+
+exam:
+    type: average
+    show_progress: true
+    minimum: 5
+    submits:
+        exam: 1
+
+resit:
+    type: average
+    show_progress: true
+    minimum: 5
+    submits:
+        resit: 1
+

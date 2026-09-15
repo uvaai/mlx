@@ -1,0 +1,129 @@
+templates:
+    1: &automatic
+        type: pass
+        subgrades:
+            done: boolean
+        automatic:
+            done: -1
+        calculation: done
+        auto_publish: true
+        hide_calculated: true
+        hide_subgrades: true
+    3: &manual
+        type: float
+        subgrades:
+            points: integer
+        calculation: points
+    4: &test
+        type: float
+        subgrades:
+            points: integer
+        calculation: done
+        is_test: true
+        hide_subgrades: true
+        hide_calculated: true
+    5: &manual_float
+        type: float
+        subgrades:
+            points: float
+        calculation: points
+    6: &written_check_off
+        type: pass
+        subgrades:
+            instructions: float
+            structure_and_style: float
+            argumentation: float
+            done: boolean
+        calculation: done
+        hide_calculated: true
+    7: &check_off
+        type: pass
+        subgrades:
+            done: boolean
+        calculation: done
+        hide_calculated: true
+
+grades:
+    prog_2:
+        <<: *check_off
+        deadline: 22/03/26 23:59
+    writ_1_elec:
+        <<: *written_check_off
+        deadline: 22/03/26 23:59
+    prog_3:
+        <<: *check_off
+        deadline: 05/04/26 23:59
+    writ_3:
+        <<: *written_check_off
+        deadline: 05/04/26 23:59
+    prog_4:
+        <<: *check_off
+        deadline: 26/04/26 23:59
+    writ_4:
+        <<: *written_check_off
+        deadline: 26/04/26 23:59
+    prog_5:
+        <<: *check_off
+        deadline: 24/05/26 23:59
+    writ_5:
+        <<: *written_check_off
+        deadline: 24/05/26 23:59
+    exam: *test
+
+calculation:
+    final:
+        programming: 40
+        writing: 20
+        exam: 40
+
+programming:
+    show_progress: false
+    show_overview: false
+    submits:
+        prog_2: 1
+        prog_3: 1
+        prog_4: 1
+        prog_5: 1
+
+writing:
+    show_progress: false
+    show_overview: false
+    submits:
+        writ_1_elec: 1
+        writ_3: 1
+        writ_4: 1
+        writ_5: 1
+
+module_1:
+    show_progress: true
+    show_overview: true
+    submits:
+        prog_2: 1
+        writ_1_elec: 1
+
+module_2:
+    show_progress: true
+    show_overview: true
+    submits:
+        prog_3: 1
+        writ_3: 1
+
+module_3:
+    show_progress: true
+    show_overview: true
+    submits:
+        prog_4: 1
+        writ_4: 1
+
+module_4:
+    show_progress: true
+    show_overview: true
+    submits:
+        prog_5: 1
+        writ_5: 1
+
+exam:
+    show_progress: true
+    show_overview: true
+    submits:
+        exam: 1

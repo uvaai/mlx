@@ -1,0 +1,4 @@
+name: prog_4_elec
+files:
+    required:
+        - polynomial_regression.ipynb

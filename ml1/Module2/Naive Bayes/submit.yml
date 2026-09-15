@@ -1,0 +1,4 @@
+name: prog_2_elec
+files:
+    required:
+        - naive_bayes.ipynb
