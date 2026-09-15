@@ -1,4 +1,4 @@
-name: writ_2
+name: ml1_writ_2
 files:
     required:
         - understanding_sentiment.txt

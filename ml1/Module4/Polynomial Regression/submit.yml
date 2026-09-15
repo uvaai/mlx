@@ -1,4 +1,4 @@
-name: prog_5
+name: ml1_prog_4
 files:
     required:
         - polynomial_regression.ipynb

@@ -1,4 +1,4 @@
-name: prog_2
+name: ml1_prog_2
 files:
     required:
         - naive_bayes.ipynb

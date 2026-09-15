@@ -44,28 +44,28 @@ templates:
         hide_calculated: true
 
 grades:
-    prog_1:
+    ml1_prog_1:
         <<: *check_off
         deadline: 11/10/26 23:59
-    writ_1:
+    ml1_writ_1:
         <<: *written_check_off
         deadline: 11/10/26 23:59
-    prog_2:
+    ml1_prog_2:
         <<: *check_off
         deadline: 25/10/26 23:59
-    writ_2:
+    ml1_writ_2:
         <<: *written_check_off
         deadline: 25/10/26 23:59
-    prog_3:
+    ml1_prog_3:
         <<: *check_off
         deadline: 15/11/26 23:59
-    writ_3:
+    ml1_writ_3:
         <<: *written_check_off
         deadline: 15/11/26 23:59
-    prog_4:
+    ml1_prog_4:
         <<: *check_off
         deadline: 06/12/26 23:59
-    writ_4:
+    ml1_writ_4:
         <<: *written_check_off
         deadline: 06/12/26 23:59
     exam: *test
@@ -80,47 +80,47 @@ programming:
     show_progress: false
     show_overview: false
     submits:
-        prog_1: 1
-        prog_2: 1
-        prog_3: 1
-        prog_4: 1
+        ml1_prog_1: 1
+        ml1_prog_2: 1
+        ml1_prog_3: 1
+        ml1_prog_4: 1
 
 writing:
     show_progress: false
     show_overview: false
     submits:
-        writ_1: 1
-        writ_2: 1
-        writ_3: 1
-        writ_4: 1
+        ml1_writ_1: 1
+        ml1_writ_2: 1
+        ml1_writ_3: 1
+        ml1_writ_4: 1
 
 module_1:
     show_progress: true
     show_overview: true
     submits:
-        prog_1: 1
-        writ_1: 1
+        ml1_prog_1: 1
+        ml1_writ_1: 1
 
 module_2:
     show_progress: true
     show_overview: true
     submits:
-        prog_2: 1
-        writ_2: 1
+        ml1_prog_2: 1
+        ml1_writ_2: 1
 
 module_3:
     show_progress: true
     show_overview: true
     submits:
-        prog_3: 1
-        writ_3: 1
+        ml1_prog_3: 1
+        ml1_writ_3: 1
 
 module_4:
     show_progress: true
     show_overview: true
     submits:
-        prog_4: 1
-        writ_4: 1
+        ml1_prog_4: 1
+        ml1_writ_4: 1
 
 exam:
     show_progress: true

@@ -1,4 +1,4 @@
-name: prog_3
+name: ml1_prog_3
 files:
     required:
         - linear_regression.ipynb

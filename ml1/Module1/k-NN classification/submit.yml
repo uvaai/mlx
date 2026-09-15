@@ -1,4 +1,4 @@
-name: prog_1
+name: ml1_prog_1
 files:
     required:
         - k_Nearest_Neighbours.ipynb
