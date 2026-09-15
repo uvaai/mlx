@@ -1,6 +1,6 @@
 # AlphaGo
 
-We hope that during the past few written assignments it has become clear that
+I hope that during the past few written assignments it has become clear that
 one of the difficult things about creating an Artificial Intelligence is having
 a good definition of intelligence in the first place. Philosophers like Searle
 might argue that understanding requires intentionality or consciousness, but
@@ -104,7 +104,7 @@ and do not have to come from scientific papers, as long as you can compare
 whether move 37 is creative or not according to this / these definitions.
 
 Your assignment should be long enough to make a clear and cohesive argument for
-your point of view. In general, this tends to correspond with around 500 words.
+your point of view. In general, this tends to correspond with around 500 words. 
 The minimum requirement for the assignment is 350 words.
 
 #### Peer review
@@ -115,3 +115,4 @@ the structure of the writing. Writing a good text can be difficult and,
 especially after you rewrote something a couple of times, other people will
 generally see improvements that you can't spot anymore. So, make use of that
 and help each other out by exchanging feedback.
+

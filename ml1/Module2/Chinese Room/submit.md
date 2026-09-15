@@ -15,7 +15,7 @@ tricky concept, but Searle gives a lot of examples in his article of cases
 where he thinks there are or aren't sufficient conditions for understanding.
 Read the article and then answer the questions below.
 
-[J.R. Searle - Minds, brains, and programs](../chinese_room.pdf)
+[J.R. Searle - Minds, brains, and programs](chinese_room.pdf)
 
 ## Understanding Sentiment
 

@@ -1,4 +1,4 @@
-name: writ_2_elec
+name: writ_2
 files:
     required:
         - understanding_sentiment.txt

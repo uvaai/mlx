@@ -44,30 +44,30 @@ templates:
         hide_calculated: true
 
 grades:
+    prog_1:
+        <<: *check_off
+        deadline: 11/10/26 23:59
+    writ_1:
+        <<: *written_check_off
+        deadline: 11/10/26 23:59
     prog_2:
         <<: *check_off
-        deadline: 22/03/26 23:59
-    writ_1_elec:
+        deadline: 25/10/26 23:59
+    writ_2:
         <<: *written_check_off
-        deadline: 22/03/26 23:59
+        deadline: 25/10/26 23:59
     prog_3:
         <<: *check_off
-        deadline: 05/04/26 23:59
+        deadline: 15/11/26 23:59
     writ_3:
         <<: *written_check_off
-        deadline: 05/04/26 23:59
+        deadline: 15/11/26 23:59
     prog_4:
         <<: *check_off
-        deadline: 26/04/26 23:59
+        deadline: 06/12/26 23:59
     writ_4:
         <<: *written_check_off
-        deadline: 26/04/26 23:59
-    prog_5:
-        <<: *check_off
-        deadline: 24/05/26 23:59
-    writ_5:
-        <<: *written_check_off
-        deadline: 24/05/26 23:59
+        deadline: 06/12/26 23:59
     exam: *test
 
 calculation:
@@ -80,47 +80,47 @@ programming:
     show_progress: false
     show_overview: false
     submits:
+        prog_1: 1
         prog_2: 1
         prog_3: 1
         prog_4: 1
-        prog_5: 1
 
 writing:
     show_progress: false
     show_overview: false
     submits:
-        writ_1_elec: 1
+        writ_1: 1
+        writ_2: 1
         writ_3: 1
         writ_4: 1
-        writ_5: 1
 
 module_1:
     show_progress: true
     show_overview: true
     submits:
-        prog_2: 1
-        writ_1_elec: 1
+        prog_1: 1
+        writ_1: 1
 
 module_2:
+    show_progress: true
+    show_overview: true
+    submits:
+        prog_2: 1
+        writ_2: 1
+
+module_3:
     show_progress: true
     show_overview: true
     submits:
         prog_3: 1
         writ_3: 1
 
-module_3:
+module_4:
     show_progress: true
     show_overview: true
     submits:
         prog_4: 1
         writ_4: 1
-
-module_4:
-    show_progress: true
-    show_overview: true
-    submits:
-        prog_5: 1
-        writ_5: 1
 
 exam:
     show_progress: true
