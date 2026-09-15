@@ -1,4 +1,0 @@
-name: prog_9c
-files:
-    required:
-        - cifar10.ipynb

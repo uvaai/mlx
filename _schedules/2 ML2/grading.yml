@@ -9,90 +9,74 @@ templates:
         auto_publish: true
         hide_calculated: true
         hide_subgrades: true
-    2: &auto-manual
-        type: float
-        subgrades:
-            correctness: integer
-            points: integer
-        automatic:
-            correctness: (correctness_score * 100).floor
-        calculation: (correctness/100).floor * points
-        hide_calculated: true
     3: &manual
         type: float
         subgrades:
             points: integer
         calculation: points
-    4: &fullyauto
+    4: &test
+        type: float
+        subgrades:
+            points: integer
+        calculation: done
+        is_test: true
+        hide_subgrades: true
+        hide_calculated: true
+    5: &manual_float
+        type: float
+        subgrades:
+            points: float
+        calculation: points
+    6: &written_check_off
         type: pass
         subgrades:
-            correctness: integer
-        automatic:
-            correctness: (correctness_score * 100).floor
-        calculation: -(correctness / 100)
-        auto_publish: true
-        hide_subgrades: true
-    5: &check_off
+            instructions: float
+            structure_and_style: float
+            argumentation: float
+            done: boolean
+        calculation: done
+        hide_calculated: true
+    7: &check_off
         type: pass
         subgrades:
             done: boolean
         calculation: done
         hide_calculated: true
-    6: &manual_exam
-        type: float
-        subgrades:
-            points: float
-        calculation: points
-        is_test: true
-        hide_subgrades: true
-    7: &written
-        type: float
-        subgrades:
-            instructions: float
-            structure_and_style: float
-            argumentation: float
-        calculation: "instructions + structure_and_style + argumentation"
 
 grades:
-    prog_7:
-        <<: *manual
-        deadline: 07/04/26 18:00
-    writ_7:
-        <<: *written
-        deadline: 07/04/26 18:00
-    prog_8:
-        <<: *manual
-        deadline: 15/04/26 18:00
-    writ_8:
-        <<: *written
-        deadline: 15/04/26 18:00
-    prog_9a:
-        <<: *manual
-        deadline: 24/04/26 18:00
-    prog_9b:
-        <<: *manual
-        deadline: 24/04/26 18:00
-    writ_9:
-        <<: *written
-        deadline: 24/04/26 18:00
-    prog_10:
-        <<: *manual
-        deadline: 27/11/26 18:00
-    writ_10:
-        <<: *written
-        deadline: 27/11/26 18:00
-    prog_11:
-        <<: *manual
-        deadline: 13/05/26 18:00
-    writ_11:
-        <<: *written
-        deadline: 13/05/26 18:00
-    prog_12:
-        <<: *manual
-        deadline: 22/05/26 18:00
-    writ_12:
-        <<: *written
-        deadline: 22/05/26 18:00
+    ml2_prog_1:
+        <<: *check_off
+        deadline: 04/10/26 23:59
+    ml2_writ_1:
+        <<: *written_check_off
+        deadline: 04/10/26 23:59
+    ml2_prog_2:
+        <<: *check_off
+        deadline: 18/10/26 23:59
+    ml2_writ_2:
+        <<: *written_check_off
+        deadline: 18/10/26 23:59
+    ml2_prog_3:
+        <<: *check_off
+        deadline: 01/11/26 23:59
+    ml2_writ_3:
+        <<: *written_check_off
+        deadline: 01/11/26 23:59
+    ml2_prog_4:
+        <<: *check_off
+        deadline: 15/11/26 23:59
+    ml2_writ_4:
+        <<: *written_check_off
+        deadline: 15/11/26 23:59
+    ml2_prog_5a:
+        <<: *check_off
+        deadline: 06/12/26 23:59
+    ml2_prog_5b:
+        <<: *check_off
+        deadline: 06/12/26 23:59
+    ml2_writ_5:
+        <<: *written_check_off
+        deadline: 06/12/26 23:59
     exam: *manual_exam
     resit: *manual_exam
 
@@ -107,82 +91,59 @@ calculation:
         resit: 40
 
 programming:
-    type: average
     show_progress: false
+    show_overview: false
     submits:
-        prog_7: 2
-        prog_8: 2
-        prog_9a: 1
-        prog_9b: 1
-        prog_10: 2
-        prog_11: 2
-        prog_12: 2
+        ml2_prog_1: 2
+        ml2_prog_2: 2
+        ml2_prog_3: 2
+        ml2_prog_4: 2
+        ml2_prog_5a: 1
+        ml2_prog_5b: 1
 
 writtens:
-    type: average
     show_progress: false
+    show_overview: false
     submits:
-        writ_7: 1
-        writ_8: 1
-        writ_9: 1
-        writ_10: 1
-        writ_11: 1
-        writ_12: 1
+        ml2_writ_1: 1
+        ml2_writ_2: 1
+        ml2_writ_3: 1
+        ml2_writ_4: 1
+        ml2_writ_5: 1
 
 module1:
-    type: average
     show_progress: true
+    show_overview: true
     submits:
-        prog_7: 2
-        writ_7: 1
+        ml2_prog_1: 2
 
 module2:
-    type: average
     show_progress: true
+    show_overview: true
     submits:
-        prog_8: 2
-        writ_8: 1
+        ml2_prog_2: 2
 
 module3:
-    type: average
     show_progress: true
+    show_overview: true
     submits:
-        prog_9a: 1
-        prog_9b: 1
-        writ_9: 1
+        ml2_prog_3: 2
 
 module4:
-    type: average
     show_progress: true
+    show_overview: true
     submits:
-        prog_10: 2
-        writ_10: 1
+        ml2_prog_4: 2
 
 module5:
-    type: average
     show_progress: true
+    show_overview: true
     submits:
-        prog_11: 2
-        writ_11: 1
-
-module6:
-    type: average
-    show_progress: true
-    submits:
-        prog_12: 2
-        writ_12: 1
+        ml2_prog_5a: 1
+        ml2_prog_5b: 1
 
 exam:
-    type: average
     show_progress: true
-    minimum: 5
+    show_overview: true
     submits:
         exam: 1
-
-resit:
-    type: average
-    show_progress: true
-    minimum: 5
-    submits:
-        resit: 1
-

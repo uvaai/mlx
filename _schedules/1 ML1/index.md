@@ -34,12 +34,10 @@ The deadlines for each of the 4 modules is listed below. Note that the first 2
 modules are smaller and should take 2 weeks, while the last 2 modules both take
 more time (about 3 weeks):
 
-<!-- * **Module 1:** *Sunday March 22nd at 23:59*
-* **Module 2:** *Sunday April 5th at 23:59*
-* **Module 3:** *Sunday April 26th at 23:59*
-* **Module 4:** *Sunday May 24th at 23:59*
-
-TODO-->
+* **Module 1:** *Sunday October 11th at 23:59*
+* **Module 2:** *Sunday October 25th at 23:59*
+* **Module 3:** *Sunday November 15th at 23:59*
+* **Module 4:** *Sunday December 6th at 23:59*
 
 
 ### Requesting extension

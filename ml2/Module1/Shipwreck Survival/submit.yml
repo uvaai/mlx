@@ -1,4 +1,4 @@
-name: prog_7
+name: ml2_prog_1
 files:
     required:
         - Logistic_Regression.ipynb

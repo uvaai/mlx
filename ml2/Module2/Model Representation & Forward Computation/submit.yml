@@ -1,4 +1,4 @@
-name: prog_8
+name: ml2_prog_2
 files:
     required:
         - forward.ipynb

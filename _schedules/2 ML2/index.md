@@ -22,13 +22,12 @@ questions. *Please pre-fix the subject of your email with* "LLL ML2".
 
 The deadlines for each of the 5 modules is listed below.
 
-<!-- * **Module 1:** *Sunday X at 23:59*
-* **Module 2:** *Sunday X at 23:59*
-* **Module 3:** *Sunday X at 23:59*
-* **Module 4:** *Sunday X at 23:59*
-* **Module 5:** *Sunday X at 23:59*
+* **Module 1:** *Sunday October 4th at 23:59*
+* **Module 2:** *Sunday October 18th at 23:59*
+* **Module 3:** *Sunday November 1st at 23:59*
+* **Module 4:** *Sunday November 15th at 23:59*
+* **Module 5:** *Sunday December 6th at 23:59*
 
-TODO-->
 
 ### Requesting extension
 
@@ -77,14 +76,11 @@ These are main classes where we'll discuss the different algorithms and writing
 assignments we're covering in each module. These will all be in room **L3.35** in
 *LAB42*.
 
-* Tuesday, October 6th, 14:00-16:00
-* Tuesday, October 20th, 14:00-16:00
-* Tuesday, November 3rd, 14:00-16:00
-* Tuesday, November 17th, 14:00-16:00
-* Tuesday, December 1st, 14:00-16:00
-
-<!-- TODO fix dates above -->
-
+* Tuesday, September 22nd, 14:00-16:00
+* Tuesday, October 13th, 14:00-16:00
+* Tuesday, October 27th, 14:00-16:00
+* Tuesday, November 10th, 14:00-16:00
+* Tuesday, November 24th, 14:00-16:00
 
 ### Q&A sessions
 
