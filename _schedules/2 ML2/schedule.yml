@@ -1,6 +1,5 @@
 Welcome:
     Read the syllabus to get started: /syllabus
-
     Installation introduction: /python/en/installing/intro
     Install Python on Windows:
         Step 1 install Miniconda: /python/en/installing/miniconda-win
@@ -14,6 +13,27 @@ Welcome:
         Step 3 command line interface: /python/en/installing/cli-mac
         Step 4 install Conda environment: /python/en/installing/conda-env-minai-mac
         Step 5 downloading tests: /python/en/installing/checkpy
+
+Optional module Numpy and OOP:
+    Numpy: /numpy/numpy
+    One-hot encoding: /ml2/onehot
+    Object Oriented Progamming:
+        Learn about using classes in Python: /python/en/classes
+        Practice with classes: /objects/cards
+    Populations:
+        Introduction: /populations-oo/introduction
+        Phase 1: /populations-oo/phase1
+        Phase 2: /populations-oo/phase2
+        Phase 3: /populations-oo/phase3
+        Phase 4: /populations-oo/phase4
+        Phase 5: /populations-oo/phase5
+        Phase 6: /populations-oo/phase6
+        Phase 7: /populations-oo/phase7
+        Phase 8: /populations-oo/phase8
+        Phase 9: /populations-oo/phase9
+        Sampling methods [theory]: /populations-oo/sampling
+        Experiment: /populations-oo/experimenting
+        Visualize: /populations-oo/visualizing
 
 Module 1 [15/09/26]:
     Overview: /ml2/module1/overview

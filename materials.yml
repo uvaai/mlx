@@ -1,6 +1,9 @@
 python:
     remote: https://github.com/spcourse/python
     branch: main
-numpy: # for reference in overview module 6
+numpy:
     remote: https://github.com/spcourse/pandas
+    branch: main
+populations-oo:
+    remote: https://github.com/spcourse/populations-oo.git
     branch: main
