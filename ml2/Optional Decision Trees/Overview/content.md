@@ -7,6 +7,6 @@ are much easier to interpret. However, an ensemble of Decision Trees, called a
 Random Forest, can actually produce state of the art results on some tasks.
 
 The theory videos introducing the algorithm can be found
-[here](/module-4/decision-trees-random-forests) and the programming notebook to
+[here](/module4/decision-trees-random-forests) and the programming notebook to
 apply this algorithm to heart disease prediction can be found
-[here](/module-4/predicting-heart-disease).
+[here](/module4/predicting-heart-disease).
