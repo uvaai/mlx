@@ -4,4 +4,4 @@ One-hot encoding is a data preprocessing technique that converts categorical tex
 
 Watch the video below to get familiar with one-hot encoding, and the reasoning behind
 
-![embed](https://youtu.be/embed/G2iVj7WKDFk)
+![embed](https://youtube.com/embed/G2iVj7WKDFk)
