@@ -7,3 +7,6 @@ numpy:
 populations-oo:
     remote: https://github.com/spcourse/populations-oo.git
     branch: main
+objects:
+    remote: https://github.com/spcourse/objects.git
+    branch: 2023
