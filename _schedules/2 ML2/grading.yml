@@ -135,6 +135,19 @@ writtens:
         ml2_writ_5: 1
         ml2_writ_6: 1
 
+ml1:
+    show_progress: true
+    show_overview: true
+    submits:
+        ml1_prog_1: 1
+        ml1_writ_1: 1
+        ml1_prog_2: 1
+        ml1_writ_2: 1
+        ml1_prog_3: 1
+        ml1_writ_3: 1
+        ml1_prog_4: 1
+        ml1_writ_4: 1
+
 module1:
     show_progress: true
     show_overview: true
