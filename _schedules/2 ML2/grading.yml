@@ -102,7 +102,6 @@ grades:
         <<: *written_check_off
         deadline: 06/12/26 23:59
     exam: *test
-    resit: *test
 
 calculation:
     final:
