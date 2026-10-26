@@ -111,7 +111,7 @@ calculation:
     retake:
         programming: 40
         writtens: 20
-        resit: 40
+        exam: 40
 
 programming:
     show_progress: false
