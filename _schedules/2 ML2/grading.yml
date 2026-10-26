@@ -44,6 +44,30 @@ templates:
         hide_calculated: true
 
 grades:
+    ml1_prog_1:
+        <<: *check_off
+        deadline: 11/10/26 23:59
+    ml1_writ_1:
+        <<: *written_check_off
+        deadline: 11/10/26 23:59
+    ml1_prog_2:
+        <<: *check_off
+        deadline: 25/10/26 23:59
+    ml1_writ_2:
+        <<: *written_check_off
+        deadline: 25/10/26 23:59
+    ml1_prog_3:
+        <<: *check_off
+        deadline: 15/11/26 23:59
+    ml1_writ_3:
+        <<: *written_check_off
+        deadline: 15/11/26 23:59
+    ml1_prog_4:
+        <<: *check_off
+        deadline: 06/12/26 23:59
+    ml1_writ_4:
+        <<: *written_check_off
+        deadline: 06/12/26 23:59
     ml2_prog_1:
         <<: *check_off
         deadline: 04/10/26 23:59
@@ -77,8 +101,8 @@ grades:
     ml2_writ_5:
         <<: *written_check_off
         deadline: 06/12/26 23:59
-    exam: *manual_exam
-    resit: *manual_exam
+    exam: *test
+    resit: *test
 
 calculation:
     final:
